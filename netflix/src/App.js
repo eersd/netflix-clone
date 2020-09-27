@@ -9,9 +9,6 @@ function App() {
       <Route exact path={ROUTES.HOME}>
         <Home />
       </Route>
-      <Route exact path="/user">
-        <p>Hello I am a user</p>
-      </Route>
       <Route exact path={ROUTES.BROWSE}>
         <Browse />
       </Route>
